@@ -8,6 +8,7 @@ Programming Languages Used:
   2. CSS
   3. SCSS
   4. React.Js
+
 Bundling Tool Used: Webpack
 Package Manager Used: Yarn
 
