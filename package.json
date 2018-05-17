@@ -1,0 +1,32 @@
+{
+  "name": "Westeros",
+  "version": "1.0.0",
+  "description": "To create a new web application as a part of MindValley assessment using HTML, CSS and React.Js.",
+  "main": "index.js",
+  "repository": "https://github.com/LNayana/MindValley-Westeros.github.io",
+  "author": "Nayana Lokhande",
+  "license": "MIT",
+  "scripts": {
+    "serve": "live-server dist/",
+    "build": "webpack --watch",
+    "build-babel": "babel src/app.js --out-file=dist/scripts/app.js --presets=env,react --watch",
+    "dev-server": "webpack-dev-server"
+  },
+  "dependencies": {
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "css-loader": "0.28.4",
+    "file-loader": "^1.1.11",
+    "node-sass": "4.5.3",
+    "normalize.css": "7.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "4.2.2",
+    "sass-loader": "6.0.6",
+    "style-loader": "0.18.2",
+    "webpack": "3.1.0",
+    "webpack-dev-server": "2.5.1"
+  }
+}

@@ -1,0 +1,251 @@
+body {
+     font-family: $font-family;
+     font-size: $px-14;
+     line-height: 1.5;
+     margin: 0 auto;
+}
+ [class*="col-"] {
+     float: left;
+     padding: $px-15;
+}
+ @media only screen and (min-width: 1200px) {
+     .col-2 {
+         width: $perc-16-66;
+    }
+     .col-3 {
+         width: $perc-25;
+    }
+     .col-4 {
+         width: $perc-33-33;
+    }
+     .col-10 {
+         width: $perc-83-33;
+    }
+     .responsive {
+         width: $perc-20;
+    }
+     .westeros-logo{
+         top: 4%;
+         position: $position-absolute;
+         left: $px-50;
+    }
+     .search {
+         width: 250px;
+    }
+}
+ @media only screen and (max-width: 1199px) {
+     .col-2 {
+         width: $perc-16-66;
+    }
+     .col-3 {
+         width: $perc-25;
+    }
+     .col-4 {
+         width: $perc-33-33;
+    }
+     .col-10 {
+         width: $perc-83-33;
+    }
+}
+
+ @media only screen and (max-width: 768px) {
+     .col-2 {
+         width: $perc-100;
+    }
+     .col-3 {
+         width: $perc-50;
+    }
+     .col-4 {
+         width: $perc-100;
+    }
+     .col-10 {
+         width: $perc-100;
+    }
+}
+
+ @media only screen and (max-width: 500px) {
+     .no-width {
+         width: $perc-50;
+    }
+}
+ h5 {
+     font-size: 16px;
+     font-weight: normal;
+     margin: $px-5 0 $px-5 0;
+     color: $title-color;
+}
+ p {
+     font-size: 12px;
+     line-height: 1;
+     margin: 0;
+     color: $subtitle-color;
+}
+ .no-padding{
+     padding: 0;
+}
+.gallery {
+     padding: 10px;
+     margin: 0 $px-5;
+     position: $position-relative;
+     text-align: left;
+}
+ .gallery a {
+     position: $position-absolute;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+}
+.gallery:hover {
+     background-color: $gallery-hover-color;
+     border-radius: 2px;
+     transition: All 600ms ease;
+}
+.gallery img {
+     width: $perc-100;
+     height: auto;
+}
+ * {
+     box-sizing: border-box;
+}
+ .responsive {
+     float: left;
+     width: $perc-20;
+     margin-bottom: $px-5;
+}
+ .menu {
+     background-color: $menu-color;
+     height: calc(100vh - 80px);
+}
+ .right {
+     float: right;
+}
+ .header {
+     height: 80px;
+}
+ .logo {
+     background-color: $logo-color;
+     height: $perc-100;
+     text-align: center;
+}
+ #search-form{
+     width: $perc-100;
+}
+ .searchbar {
+     background-color: $search-bar;
+     height: $perc-100;
+     padding: 0 30px;
+     align-items: center;
+}
+
+.round {
+     width: $perc-100;
+     height: 42px;
+     border-radius: 21px;
+     -moz-border-radius: 21px;
+     -webkit-border-radius: 21px;
+     padding: 20px $px-15;
+     color: $input-border;
+}
+ .search {
+     position: $position-relative;
+}
+ .search .fa-search {
+     position: $position-absolute;
+     right: 7px;
+     font-size: $px-15;
+}
+ ::placeholder {
+     font-style: italic;
+}
+ #filtersubmit {
+     position: $position-absolute;
+     z-index: 10;
+     right: 34px;
+     top: $px-14;
+     color: $search-icon;
+     cursor: pointer;
+     width: 0;
+}
+ input:focus {
+     outline: none;
+}
+
+ .menuList {
+     list-style-type: none;
+}
+ ul.menuList li {
+     padding: 8px 0px;
+}
+ ul.menuList li a {
+     text-decoration: none;
+     color: $white-color;
+}
+ .profile {
+     text-align: right;
+     width: $perc-100;
+}
+ .v-middle {
+     display: flex;
+     height: $perc-100;
+     align-items: center;
+}
+ i {
+     font-style: normal;
+     font-size: 18px;
+}
+ .avatar {
+     font-size: $px-50;
+     color: $avatar-color;
+}
+ .headerbar {
+     height: $perc-100;
+}
+ .menu-items {
+     margin-left: 10px;
+}
+ .profile-user {
+     margin-left: $px-15;
+	 color:$title-color;
+}
+
+ .heading {
+     line-height: 0;
+     padding: $px-15;
+}
+ .image-container{
+     margin:10px 10px;
+}
+ hr {
+     border: 1px solid #ededed;
+     margin: 0 $px-15;
+}
+
+ @media only screen and (max-width: 1199px) {
+     .responsive {
+         width: $perc-50;
+    }
+}
+
+ @media only screen and (max-width: 768px) {
+     .responsive {
+         width: $perc-100;
+    }
+     .menu {
+         width: $perc-100;
+         height: auto;
+         padding: 0;
+    }
+     .logo {
+         width: $perc-100;
+         height: auto;
+    }
+     .searchbar {
+         padding: 0 $px-15;
+    }
+     .profile {
+         text-align: center;
+         margin-left: 10px;
+    }
+}
+ 
