@@ -66,19 +66,14 @@ The <b>folder structure</b> is as follows:
 
 * <b>Screenshots</b> are attached here:
 
-<b>A. Desktop View (Without Product Highlight)</b>
+<b>A. Desktop View (Without Product Highlight)</b><br/>
 ![](screenshots/Desktop-View-Without-Product-Highlight.png)
-
-
-<b>B. Desktop View (With Product Highlight)</b>
-![](screenshots/Desktop-View-With-Product-Hightlight.png)
-
-
-<b>C. Tablet View</b>
-![](screenshots/Tablet-View.png)
-
-
-<b>D. Mobile View</b>
-![](screenshots/Mobile-View.png)
+<br/>
+<b>B. Desktop View (With Product Highlight)</b><br/>
+![](screenshots/Desktop-View-With-Product-Hightlight.png)<br/>
+<b>C. Tablet View</b><br/>
+![](screenshots/Tablet-View.png)<br/>
+<b>D. Mobile View</b><br/>
+![](screenshots/Mobile-View.png)<br/>
 
 ---------------------------------
