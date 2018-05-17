@@ -1,9 +1,9 @@
 # MindValley-Westeros.github.io
-To create a new web application as a part of MindValley assessment using HTML, CSS and React.Js.
+<b>Task:-</b> To create a new web application as a part of MindValley assessment using HTML, CSS and React.Js.
 
 This repository contains the Westeros web application developed as a part of Mind Valley assessment.
 
-Setps to open the web page on browser?
+<b>Setps to open the web page on browser?</b>
 1. Clone the current repository at any specific location on your computer.
 2. Open Terminal (for mac) or command prompt (for windows).
 3. Set the path to your project folder location.
@@ -21,13 +21,13 @@ Setps to open the web page on browser?
   3. SCSS
   4. React.Js
 
-Bundling Tool Used: Webpack
-Package Manager Used: Yarn
+<b>Bundling Tool Used</b>: Webpack
+<b>Package Manager Used</b>: Yarn
 
-Web Application is divided into different components. These components are built using React.Js.
+- Web Application is divided into different components. These components are built using React.Js.
 Components are written using HTML like JSX.
 
-The folder structure is as follows:
+The <b>folder structure</b> is as follows:
 
 - dist (This folder is used for distribution purpose. All public files needs to be accessible outside are reside in this.)
     |- assets
@@ -64,6 +64,21 @@ The folder structure is as follows:
 
 * Responsiveness of the application is handled by the CSS media queries whereever required.
 
-* Screenshots are attached here:
+* <b>Screenshots</b> are attached here:
+
+<b>A. Desktop View (Without Product Highlight)</b>
+![](screenshots/Desktop-View-Without-Product-Highlight.png)
 
 
+<b>B. Desktop View (With Product Highlight)</b>
+![](screenshots/Desktop-View-With-Product-Hightlight.png)
+
+
+<b>C. Tablet View</b>
+![](screenshots/Tablet-View.png)
+
+
+<b>D. Mobile View</b>
+![](screenshots/Mobile-View.png)
+
+---------------------------------
